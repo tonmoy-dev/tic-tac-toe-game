@@ -1,14 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client"; // It will renders the files in the web
-// import App from "./App.jsx";
 import Board from "./App.jsx";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    {/* <App /> */}
+    {/* All jsx files excluding this, will be rendered by Board component */}
     <Board />
   </React.StrictMode>
 );
-
-// All jsx files excluding app.jsx, will be rendered by this App component */
